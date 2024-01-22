@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     static int sum(int[] a) {
         int sum = 0;
-        for(int i=0;i<=a.length-1;i++)
+        for(int i=0;i<a.length;i++)
             sum += a[i];
         return sum;
 
